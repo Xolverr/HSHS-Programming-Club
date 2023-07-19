@@ -1,0 +1,8 @@
+# What is WoofJS?
+[WoofJS](woofjs.com) is a web-based code editor that we will start with. It is a good starting place for people who have never programmed before, and allows you to get started learning the fundamentals of programming with JS without having to learn more complex topics like HTML and CSS. Because it is based in a browser, anyone can use it with any device (Though phones are not recomended) and even students with School Chromebooks can program!
+
+## My school has blocked it, what can I do?
+If your school has blocked WoofJS, there are other alternative ways to program on the web, but they will not be as streamlined as WoofJS. If you can follow along with a personal device, that would be recomended. If you must use a School Chromebook or other device that has school restrictions, try and get them to unblock it. If all else fails, you can go to [VSCodes Online Web IDE](www.vscode.dev) and follow along as if it were an external IDE on a personal computer. Everything is still possible, but it is very restricted and difficult to learn with this method.
+
+## I want to use a personal computer to follow along, how do I do that?
+If you have decided to start out with a personal computer, I would still recomend starting in the browser as it simplifies a lot of the higher level material so you can focus on learning the fundamentals and having a good time making games. If you do not want to do so, or cannot for whatever reason, you need to setup an external IDE. Follow along the [Setting up an External IDE](/External-IDE-Setup/README.md) tutorial in this repository to learn how to get setup there.
