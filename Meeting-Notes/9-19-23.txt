@@ -1,0 +1,35 @@
+Meeting log for 9-19-23 for anyone who was not here and is interested:
+
+Today we started the Star Catcher tutorial project on WoofJs.com.
+A link to my copy of the code and game can be found at https://woofjs.com/create.html#HSHSProg-Star-Catcher
+
+We went over variables, how to detect the mouse clicking, and how to display basic text on the screen. 
+After using that to create what you see at the link (If I have not gone back and changed it since), everyone attempted to finish the tutorial on their own.
+This includes making a timer, that ticks down once every second and then once it hits 0, ends the game or restarts it for continued play.
+
+If you are stuck and would like an explanation of that, I will provide one below. 
+You can also send a message on our canvas, or check the tutorial keys in the WoofJs folder in this repo.
+
+To make a timer, we can do the same as the score and create a variable with a text connected to it:
+
+let time = 20
+let timerText = new Text({
+    text: () => "Time Left: "+time
+})
+
+and then in order to make it tick once per second, we can use the every function: 
+
+every(1, 'second', () => {
+  //Decrement time and check if it is 0, if so end the game.
+  time--
+  if(time == 0) {
+    time = 20
+    score = 0
+  }
+})
+
+The above is a basic example of what to do if the timer hits 0, all it does is reset the time to 20 seconds and reset the score.
+You can change that to do whatever you want! Don't worry about the if statment, we will go over those and how to use them next meeting.
+
+See y'all next meeting!
+-NAS
