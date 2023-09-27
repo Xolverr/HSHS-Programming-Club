@@ -1,0 +1,40 @@
+Meeting notes for the 9/27/23 meeting:
+
+Today we went over the basics of conditional logic using if statments, then we continued making progress with the level 1 tutorials on WoofJS. The following is a recap of the conditional logic lesson if you missed it:
+
+An if statment is how you check conditions, such as if the player is touching a wall. The syntax for an if statment is as follows:
+
+if (/*Condition*/) {
+  //Code goes here
+}
+
+Inside the parenthesis you write your condition, what you want to be checking. There are many ways to do logic like this:
+
+something == somethingElse - Equality
+something != somethingElse - Inverse Equality
+something >=, <=, <, or > somethingElse - Size logic
+condition || condition - OR
+condition && condition - AND
+
+These conditions paired with AND and OR can make very complex statments, which makes them hard to read. To help with this problem, you can use () to surround conditional statments to make them follow order of operations:
+
+if (condition1 && (condition2 || condition3)){
+
+}
+
+You can also add else statments, or else if statments after an if statment:
+
+if(condition){
+
+} else {
+
+}
+
+if(condition) {
+
+} else if(condition) {
+
+}
+
+These can be chained as long as needed. 
+-NAS
